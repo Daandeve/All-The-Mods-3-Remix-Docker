@@ -19,7 +19,7 @@ RUN rm atm3-remix-server-full.zip
 
 # Accept EULA
 RUN echo "# EULA accepted on $(date)" > /minecraft/eula.txt && \
-    echo "eula=TRUE" >> eula.txt
+    echo "eula=true" >> eula.txt
 
 # Startup script
 CMD ["/bin/bash", "/minecraft/startserver.sh"] 
