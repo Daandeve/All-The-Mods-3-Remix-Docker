@@ -13,8 +13,8 @@ RUN apk update && apk add curl bash
 RUN mkdir -p /minecraft/world
 
 RUN curl -LO https://media.forgecdn.net/files/2990/439/atm3-remix-server-full.zip
-RUN unzip atm3-remix-server-full.zip && mv ATM3/* ./
-RUN rmdir ATM3 && rm atm3-remix-server-full.zip
+RUN unzip atm3-remix-server-full.zip
+RUN rm atm3-remix-server-full.zip
 
 
 # Accept EULA
