@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --tag ftb-dw20 .
+docker build --tag all-the-mods-3-remix-docker .
