@@ -22,4 +22,4 @@ RUN echo "# EULA accepted on $(date)" > /minecraft/eula.txt && \
     echo "eula=TRUE" >> eula.txt
 
 # Startup script
-CMD ["/bin/bash", "/minecraft/ServerStart.sh"] 
+CMD ["/bin/bash", "/minecraft/startserver.sh"] 
